@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=">
+        <link rel="stylesheet" href="thicuoiki.css">
+        <title>form-Login</title>
+        
+    </head>
+    <body>
+        <div class="img-1" id="img-1">
+        <img src="https://png.pngtree.com/background/20210709/original/pngtree-black-night-poster-background-picture-image_862504.jpg" alt="" style="width:385px;height:680px;">
+<div class="container">
+        <form action="" class="form-1">
+    <div class="form-text">
+            <input type="text" class="form-input" placeholder="E-mail"></div>
+    <div class="form-text">
+            <input  type ="password" class="form-input" placeholder="Password"></div>
+    <div class="login">
+            <button type="button" id="back-one">LOG IN</button></div>
+    <div class="singin">
+            <button type="button" id="next-one" style="background-color:#48D1CC;">SING UP</button></div>
+    <h4  class="from-h4">HELP</h4>
+         </form>
+<form class="form-2">
+            <div class="form-t">
+                <label for="txthovaten"><b>FULL NAME</b></label>
+                <input type="text" class="form-input" placeholder="Enter full name">
+                </div>
+            <div class="form-t">
+            <label for="txthovaten"><b>E-MAIL</b></label>
+            <input type="text" class="form-input" placeholder="Your E-mail goes here">
+            </div>
+            <div class="form-t">
+                <label for="txthovaten"><b>Password</b></label>
+            <input  type ="password" class="form-input" placeholder="Password">
+            </div>
+            <div class="from-checkbox">
+            <input type ="checkbox" class="checkbox"><span>I agree all statements in</span>
+           <a class="kieuchu" href="https://www.facebook.com/profile.php?id=100044066526130"><b>Terms of service</b></a>
+        </div>
+            <div class="login">
+                <button >LOG IN</button>
+        </div>
+    
+         </form>
+        </div>
+
+
+    </div>
+
+
+<script>
+            const nextOne = document.querySelector('#next-one')
+            const backOne = document.querySelector('#back-one')
+
+
+            const formOne = document.querySelector('.form-1')
+            const formtwo = document.querySelector('.form-2')
+            nextOne.addEventListener("click",function(){
+                formOne.style.left = "-400px"
+                formtwo.style.left ="0px"
+            })
+        </script>
+    </body>
+</html>
